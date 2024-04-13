@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Raleway", sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1420px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #212121;
+    color: #fff;
+    /* min-height: 100vh; */
+}
+.nasa-image{
+    width: 100%;
+    max-width: 1000px;
+    height: 400px;
+    object-fit: cover;
+}
+#current-image-container{
+    width: 100%;
+    max-width: 1000px;
+}
+#current-image-container h1{
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  /* margin-top: 10px; */
+}
+#current-image-container h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#current-image-container p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+form .input-wrapper{
+display: flex;
+gap: 10px;
+}
+
+form .form-btn button{
+padding: 6px 16px;
+border-radius: 5px;
+text-align: center;
+border: none;
+margin-bottom: 10px;
+}
+
+.Itemlist{
+    list-style: none;
+    margin-bottom: 10px;
+}
